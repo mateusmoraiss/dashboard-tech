@@ -79,4 +79,8 @@ footer span {
 .mouse-pointer { 
     cursor: pointer;
   }
+
+.diminuir-letra {
+  font-size: 15px;
+}
   
