@@ -28,17 +28,17 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<script>
-		var preferidasData = [100, 100, 100,100];
+		var preferidasData = [20, 20, 10,20,15,5];
 		var naoPreferidasData = [69, 21, 10];
 
 		var preferidasChart = new Chart(document.getElementById('chart-preferidas'), {
 			type: 'doughnut',
 			data: {
-				labels: ['JavaScript', 'Python', 'Inovação (no geral)','Inteligência artificial'],
+				labels: ['JavaScript', 'Python', 'Inovação (no geral)','Inteligência artificial','C','Data Science'],
 				datasets: [{
 					label: 'Preferidas',
 					data: preferidasData,
-					backgroundColor: ['#ffc107', '#28a745', '#007bff','#da1e28']
+					backgroundColor: ['#ffc107', '#28a745', '#007bff','#da1e28','#BDB76B','#6610f2']
 				}]
 			},
 			options: {
