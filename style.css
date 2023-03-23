@@ -10,12 +10,11 @@ body {
   flex-direction: column;
   
 }
-
 header {
-  background-color: #13293D;
-  color: white;
-  text-align: center;
-  padding: 20px;
+    background-color: #186c9f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
 }
 
 footer {
