@@ -5,20 +5,28 @@ body {
  
 }
 
+.conteudo{
+  background-color:#f2f2f2;
+}
+
 body {
   display: flex;
   flex-direction: column;
   
 }
+h1:hover {
+  color: #170025;
+}
+
 header {
-    background-color: #186c9f;
+  background-color: #003157;
     color: #ffffff;
     text-align: center;
     padding: 20px;
 }
 
 footer {
-  background-color: #006494;
+  background-color: #003157;
   color: #ffffff;
   text-align: center;
   padding: 10px;
