@@ -30,7 +30,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<script>
 		var preferidasData = [20, 20, 10,20,15,5];
-		var naoPreferidasData = [69, 21, 10];
+		var naoPreferidasData = [65, 21, 10, 4];
 
 		var preferidasChart = new Chart(document.getElementById('chart-preferidas'), {
 			type: 'doughnut',
@@ -63,11 +63,11 @@
 		var naoPreferidasChart = new Chart(document.getElementById('chart-nao-preferidas'), {
 			type: 'doughnut',
 			data: {
-				labels: ['Java', 'Cobol', 'Java denovo'],
+				labels: ['Assembly', 'Cobol', 'Visual Basic' , 'Cobol denovo kk'],
 				datasets: [{
 					label: 'Não preferidas',
 					data: naoPreferidasData,
-					backgroundColor: ['#dc3545', '#17a2b8', '#6610f2']
+					backgroundColor: ['#dc3545', '#17a2b8', '#6610f2' , '#00BFFF']
 				}]
 			},
 			options: {
