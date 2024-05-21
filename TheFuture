@@ -8,7 +8,7 @@ if (Used_Artificial_Intelligence === true) {
     var How_Used = "The majority of the logic was done with the help of AI, while the styles were done by me.";
 }
 if (Used_Previous_Template === true) {
-    var Credit = "I actually took this project from the YouTube channel: Inteligencia Mil Grau and adapted it to learn and see how the technology works.";
+    var Credit = "Used Previous Template";
 } else {
     var Credit = "100% original";
 }
@@ -18,7 +18,7 @@ if (Usei_Inteligencia_Artificial === true) {
     var Como_Usei = "A maior parte da lógica foi feita com a ajuda de IA, enquanto os estilos foram feitos por mim.";
 }
 if (Usei_Template_Previo === true) {
-    var Credito = "Na verdade peguei esse projeto do canal do YT: Inteligencia Mil Grau e adaptei para aprender e ver como funciona a tecnologia";
+    var Credito = "Usei template prévio";
 } else {
     var Credito = "100% autoral";
 }
